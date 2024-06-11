@@ -1,0 +1,27 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: BSBA in Management Information Systems  
+  icon: fa-microscope
+  timeframe: 2014-2015
+  institution:
+    name: University of North Carolina at Charlotte
+    url: "https://www.charlotte.edu/"
+    logo: /images/sections/education/uncclogo.png
+
+- name: Economics and Statistics coursework
+  icon: fa-microscope
+  timeframe: 2008-2011
+  institution:
+    name: University of North Carolina at Charlotte
+    url: "https://www.charlotte.edu/"
+    logo: /images/sections/education/uncclogo.png

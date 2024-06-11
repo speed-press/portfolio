@@ -1,0 +1,67 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+skills:
+
+- name: Docker / Kubernetes
+  logo: /images/sections/skills/kubernetes.png
+  summary: "Deployed multiple web applications and an api on Azure AKS."
+  url: "https://kubernetes.io/"
+
+- name: Cloud Computing
+  logo: /images/sections/skills/azure.png
+  summary: "Core skillset with Azure, but have experience with AWS."
+  url: "https://portal.azure.com"
+
+- name: Automation
+  logo: /images/sections/skills/cloud.png
+  summary: "Can automate almost any task, even without experience with the application. If it's capable. I'm capable. e.g. Dynamic Excel/Tableau generation from code"
+  url: "https://github.com"
+
+- name: AI Chatbot development
+  logo: /images/sections/skills/gpt.png
+  summary: "Some experience building microservice apps with gpt-4-turbo, gpt-4o, and custom gpts"
+  url: "https://github.com"
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Very experienced with Python. Built entire modules."
+
+- name: Business Intelligence
+  logo: /images/sections/skills/tableau.png
+  summary: "Can build BI reports in a multitude of tools including Tableau, PowerBi, Crystal, and more."
+
+- name: Excel
+  logo: /images/sections/skills/excel.jpg
+  summary: >
+    Pivot Tables? Nah, It's all about power query with excel. Connecting to data, joining, cleaning, 
+    transforming, and elevating access to data. I built a spread sheet (by learning M language)
+    that allowed me to download Azure DevOps data (such as Azure boards) and update it as I saw fit.
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Experienced with git-based development. DevOps, Github"
+  url: "https://github.com"
+
+- name: Application Monitoring 
+  logo: /images/sections/skills/splunk.png
+  summary: "Extensive experience with Splunk and splunk queries. I've also built monitoring solutions Azure Application Insights, Microsoft SCOM, SquaredUp, and more. "
+  url: "https://www.docker.com/"

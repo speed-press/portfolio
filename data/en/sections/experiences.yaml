@@ -1,0 +1,96 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Equitable
+    url: "https://equitable.com/"
+    location: Charlotte, NC
+    logo: /images/sections/experiences/equitable.png
+    overview: Equitable provides life insurance, retirement planning, and investment solutions, helping individuals and businesses achieve financial security and build wealth.
+  positions:
+  - designation: Software Engineer III
+    start: Sept 2023
+    responsibilities:
+    - Actively contributed to AI projects including AI tooling and AI client experience.
+    - Engineered and implemented Azure-based solutions, enhancing scalability and performance across applications.
+    - Trained broader team on ITIL, change management, and SDLC best practices.
+    - Led project to convert existing applications into AKS solutions.
+  - designation: Lead Manager, Digital Solutions
+    start: Jul 2021
+    end: Aug 2023
+    responsibilities:
+    - Managed a team of developers.
+    - Championed internal transformation projects for operational reporting, automation, cloud adoption, microservices, and self-service portals.
+    - Directed a high-impact project for the "Data at Your Fingertips" initiative aimed at reducing call center traffic (deployed 03/07/24).
+    - Developed applications to automate the generation and distribution of various BI reports.
+    - Led new technology assessments.
+- company:
+    name: T3 Data Communications
+    url: "https://www.t3datacom.com/"
+    location: Charlotte, NC
+    logo: /images/sections/experiences/t3.png
+    overview: T3Datacom offers commercial cabling and networking services in the Charlotte-Mecklenburg metropolitan area.
+  positions:
+  - designation: Data management consultant
+    start: Jan 2021
+    end: May 2021
+    responsibilities:
+    - Transformed manual data input, collection, ETL and reporting processes into efficient, automated workflows.
+    - Enhanced business visibility by designing Tableau dashboards to track operational metrics, projects, issues, and inventory.
+    - Saved company over 100 hours a week in labor through automation, microservices, and process improvement.
+
+- company:
+    name: TIAA
+    url: "https://tiaa.org"
+    location: Charlotte, NC
+    logo: /images/sections/experiences/tiaa.png
+    # Can optionally show a different logo for dark theme
+    # darklogo: /images/sections/experiences/company2.jpg
+    overview: TIAA (Teachers Insurance and Annuity Association of America) offers retirement, investment, and insurance services, primarily for educators and non-profit workers. Managing over $1 trillion in assets, TIAA is dedicated to financial security and ethical business practices.
+  positions:
+  - designation: Sr. Systems Analyst
+    start: Feb 2018
+    end: Nov 2020
+    responsibilities:
+    - Managed offshore resources for RPA automation, reporting, and workflow design.
+    - Product Owner / Technical lead for highly visible, data reliant applications (e.g. Google Analytics, Splunk, Poppulo, SharePoint, BI Dashboards).
+    - Promoted and lead data driven change for Intranet development, operational metrics, automation, and reporting.
+    - Built ETL pipelines from Google Analytics, On-prem SharePoint/SPO, HR data marts, and other internal systems.
+    - Led various cloud technology assessments and Proof of Concepts (POCs).
+  - designation: Systems Analyst
+    start: March 2016
+    end: Jan 2018.
+    responsibilities:
+    - Collaborated with teams across the organization for SharePoint application development and support, functioning as both Business Analyst (BA) and Systems Analyst (SA).
+    - Managed project and application cyberark security reviews 
+    - Eliminated redundant and low-value processes by creating automation, significantly reducing or completely eliminating the need for human interaction.
+    - Managed Splunk configurations including log ingestion process and spunk queries/dashboards.
+    - Completed two green belt projects that centralized and streamlined the work intake process for a business unit (400+ employees) reducing total processing time by over 300 hours a month.
+
+- company: 
+    name: Geek Squad Senior / Pinellas Computers / Owner @ Sigma Computers (2007 - 2012).
+    # Can optionally show a different logo for dark theme
+    # darklogo: /images/sections/experiences/company3.jpg
+    overview: Bench tech | Home & Business technical services | self-smployed
+  positions:
+  - designation: Various
+    start: Jan 2007
+    end: Dec 2012
+    responsibilities:
+    - Technical end user support (bench, PC remote, and Site visit)
+    - Provided software services such as data recovery / Virus removal / OS repair / Optimization.
+    - Hardware troubleshooting and repair for desktop and laptop (Laptop keyboard/screens, desktop rebuilds)
+    - Networking installation and configuration (Site visit)
+    - Mobile device repair (Tablet & Phone screen / battery, etc)
+    - Custom computer builds / overclocking services
+
+
