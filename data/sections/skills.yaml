@@ -23,27 +23,34 @@ skills:
 
 - name: Docker / Kubernetes
   logo: /images/sections/skills/kubernetes.png
-  summary: "Deployed multiple web applications and an api on Azure AKS."
+  summary: Deployed multiple web applications and an api on Azure AKS.
   url: "https://kubernetes.io/"
 
 - name: Cloud Computing
   logo: /images/sections/skills/azure.png
-  summary: "Core skillset with Azure, but have experience with AWS."
+  summary: Experienced with cloud administration and application web app developement in Azure. Some experience with AWS.
   url: "https://portal.azure.com"
 
-- name: Automation
-  logo: /images/sections/skills/cloud.png
-  summary: "Can automate almost any task, even without experience with the application. If it's capable. I'm capable. e.g. Dynamic Excel/Tableau generation from code"
-  url: "https://github.com"
+- name: SQL
+  logo: /images/sections/skills/sql.png
+  summary: Advanced SQL skills. Can write complex queries with stored procedures, CTE's, and window functions.
 
-- name: AI Chatbot development
-  logo: /images/sections/skills/gpt.png
-  summary: "Some experience building microservice apps with gpt-4-turbo, gpt-4o, and custom gpts"
-  url: "https://github.com"
+- name: Data modeling
+  logo: /images/sections/skills/datamodel.png
+  summary: Can build data models for applications, databases, and data warehouses. Familiar with Kimball and Inmon methodologies. Strong with normalization and denormalization.
 
 - name: Python
   logo: /images/sections/skills/python.png
-  summary: "Very experienced with Python. Built entire modules."
+  summary: Advanced Python skills. Can build web applications, data pipelines, rest apis, database connection modules, logging modules, pandas ++
+
+- name: Automation
+  logo: /images/sections/skills/automation.png
+  summary: Can automate almost any task, even without experience with the application. If it's capable. I'm capable. e.g. Dynamic Excel file generation + distro from code
+
+- name: AI Chatbot development
+  logo: /images/sections/skills/gpt.png
+  summary: "Some experience building microservice apps with gpt-4-turbo, gpt-4o, and custom gpts."
+  url: "https://github.com"
 
 - name: Business Intelligence
   logo: /images/sections/skills/tableau.png
@@ -52,16 +59,39 @@ skills:
 - name: Excel
   logo: /images/sections/skills/excel.jpg
   summary: >
-    Pivot Tables? Nah, It's all about power query with excel. Connecting to data, joining, cleaning, 
-    transforming, and elevating access to data. I built a spread sheet (by learning M language)
-    that allowed me to download Azure DevOps data (such as Azure boards) and update it as I saw fit.
+    Connecting to an API or databas. Joining, cleaning, transforming, and elevating access to data like you've never seen in Excel. (e.g. Learned M language to build
+    a excel sheet that downloaded Azure DevOps boards data and update it from excel)
 
 - name: Git
   logo: /images/sections/skills/git.png
   summary: "Experienced with git-based development. DevOps, Github"
   url: "https://github.com"
 
+- name: Powershell
+  logo: /images/sections/skills/powershell.png
+  summary: Can write advanced powershell scripts for automation, administration, reporting. Also well expereinced in traversing ActiveDirectory trees. 
+
 - name: Application Monitoring 
   logo: /images/sections/skills/splunk.png
-  summary: "Extensive experience with Splunk and splunk queries. I've also built monitoring solutions Azure Application Insights, Microsoft SCOM, SquaredUp, and more. "
-  url: "https://www.docker.com/"
+  summary: Built solutions with Spunk, Azure Application Insights, Microsoft SCOM, and custom monitoring solutions.
+ 
+- name: Web Analytics
+  logo: /images/sections/skills/gtm.png
+  summary: Can build tagging systems through GA/GTM and analyze data to provide insights on user behavior, page performance, heat maps.
+
+- name: SharePoint
+  logo: /images/sections/skills/sharepoint.png
+  summary: Administration on 2013/2019 on prem and online. Familiar with on prem and online development.
+
+- name: Apache
+  logo: /images/sections/skills/apache.png
+  summary: Built half a dozen Apache web servers for web portals and applications.
+
+- name: ITIL / Change Management
+  logo: /images/sections/skills/servicenow.png
+  summary: Experienced with ITIL and Change Management processes including ServiceNow catalog request provisioning, incident, change, CMDB, and reporting
+
+- name: Computer hardware / software troubleshooting
+  summary: Can troubleshoot and repair most computer hardware and software issues. Registry repair, virus removal, laptop keyboard repair, lcd replacement ++
+
+git 

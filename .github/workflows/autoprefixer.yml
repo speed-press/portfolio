@@ -1,44 +1,35 @@
-name: Deploy to Github Pages
-
-# run when a commit is pushed to "source" branch
+name: Autoprefixer
 on:
   push:
     branches:
-    - main
-
+      - main
 jobs:
-  deploy:
+  autoprefixer:
     runs-on: ubuntu-latest
     steps:
-    # checkout to the commit that has been pushed
-    - uses: actions/checkout@v3
+      - name: Checkout to latest commit
+        uses: actions/checkout@v4.1.6
 
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2.6.0
-      with:
-        hugo-version: 'latest'
-        extended: true
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "15.x"
 
-    - name: Update Hugo Modules
-      run: hugo mod tidy
+      - name: Run autoprefixer
+        run: |
+          npm install postcss postcss-cli autoprefixer --save-dev
+          npm run autoprefixer
 
-    - name: Setup Node
-      uses: actions/setup-node@v3
-      with:
-        node-version: 18
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: autoprefixer
+          branch-suffix: timestamp
+          commit-message: add vendor specific css prefixes
+          title: "Update and run autoprefixer"
+          body: |
+            This PR runs [postcss/autoprefixer](https://github.com/postcss/autoprefixer) to update vendor specific CSS prefixes.
 
-    - name: Install node modules
-      run: |
-        hugo mod npm pack
-        npm install        
-
-    - name: Build
-      run: hugo --minify
-
-    # push the generated content into the `gh-pages` branch.
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3.9.0
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_branch: gh-pages
-        publish_dir: ./public
+            >This PR has been created automatically by Github Action [peter-evans/create-pull-request](https://github.com/peter-evans/create-pull-request).
+          labels: "enhancement,automerge"
+          reviewers: hossainemruz
