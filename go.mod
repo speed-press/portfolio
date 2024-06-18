@@ -1,4 +1,4 @@
-module github.com/speed-press/portfolio
+module github.com/smartshark/portfolio
 
 go 1.21
 
