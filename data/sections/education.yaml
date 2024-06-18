@@ -10,18 +10,21 @@ section:
   # hideTitle: true
 
 degrees:
-- name: BSBA in Management Information Systems, Cum Laude
+- name: BSBA in Management Information Systems
   icon: fa-microscope
-  timeframe: 2014-2015
+  timeframe: 2016, Cum Laude
   institution:
     name: University of North Carolina at Charlotte
     url: "https://www.charlotte.edu/"
     logo: /images/sections/education/uncclogo.png
-
-- name: Economics and Statistics coursework
-  icon: fa-microscope
-  timeframe: 2008-2011
-  institution:
-    name: University of North Carolina at Charlotte
-    url: "https://www.charlotte.edu/"
-    logo: /images/sections/education/uncclogo.png
+  takenCourses:
+    courses:
+    - name: Business Information Systems Analysis and Design
+    - name: Business Analytics
+    - name: Probably and Statistics
+    - name: Data and Information Management 
+    - name: eBusiness Systems
+    - name: Business Applications Development
+  customSections: 
+    - name: Relevant activities
+      content: VP, Association for Information Systems -  2014-2015, Tutor (Data modeling, SQL)

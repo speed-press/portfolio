@@ -30,11 +30,8 @@ jobs:
           body: |
             This PR runs [postcss/autoprefixer](https://github.com/postcss/autoprefixer) to update vendor specific CSS prefixes.
 
-<<<<<<< HEAD
             >This PR has been created automatically by Github Action [peter-evans/create-pull-request](https://github.com/peter-evans/create-pull-request).
           labels: "enhancement,automerge"
-          reviewers: hossainemruz
-=======
     - name: Install node modules
       run: |
         hugo mod npm pack
@@ -50,4 +47,3 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages
         publish_dir: ./public
->>>>>>> 1330bd8a16448ce45d8c96a998df6bc6c582554f

@@ -1,14 +1,10 @@
-# section information
 section:
   name: Skills
   id: skills
   enable: true
   weight: 2
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
-# filter buttons
 buttons:
 - name: All
   filter: "all"
@@ -21,45 +17,71 @@ buttons:
 
 skills:
 
-- name: Docker / Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: Deployed multiple web applications and an api on Azure AKS.
-  url: "https://kubernetes.io/"
-
 - name: Cloud Computing
   logo: /images/sections/skills/azure.png
-  summary: Experienced with cloud administration and application web app developement in Azure. Some experience with AWS.
-  url: "https://portal.azure.com"
+  summary: >
+    Experienced with cloud administration and application web app developement in Azure. 
+    Some experience with AWS.
 
 - name: SQL
   logo: /images/sections/skills/sql.png
   summary: Advanced SQL skills. Can write complex queries with stored procedures, CTE's, and window functions.
 
-- name: Data modeling
+- name: Database
+  summary: >
+    Advanced knowledge of database systems, design, and administration. Can build and maintain databases, 
+    data warehouses, data marts.
+
+- name: Data Modeling
   logo: /images/sections/skills/datamodel.png
-  summary: Can build data models for applications, databases, and data warehouses. Familiar with Kimball and Inmon methodologies. Strong with normalization and denormalization.
+  summary: |
+    Can build data models for applications, databases, and data warehouses. 
+    Familiar with Kimball and Inmon methodologies. Strong with normalization and denormalization.
+
+- name: Data Engineering |  ETL
+  summary: >
+    Worked with numerous ETL tools including ADF and SSIS. Haven't worked with anything I found difficult, 
+    but I'm hoping I can get into web scale data and distributed systems. Currently honing my skills with 
+    Airflow and Luigi and have knowledge of Hadoop and other distributed systems.
 
 - name: Python
   logo: /images/sections/skills/python.png
-  summary: Advanced Python skills. Can build web applications, data pipelines, rest apis, database connection modules, logging modules, pandas ++
+  summary: |
+    Advanced Python skills. Can build web applications, data pipelines, rest apis, database connection modules, 
+    logging modules ++ Focused on readable code, reusable code conforming to pep8 standards.
+
+- name: Front End Development
+  #logo: /images/sections/skills/frontend.png
+  summary: |
+    Familiar with front end development. HTML, CSS, php, javascript, and angular. Not my cup of tea, 
+    but if it needs to be done, I can do it. Just like this site.
 
 - name: Automation
   logo: /images/sections/skills/automation.png
-  summary: Can automate almost any task, even without experience with the application. If it's capable. I'm capable. e.g. Dynamic Excel file generation + distro from code
+  summary: |
+    Can automate almost any task, even without experience with the application. If it's capable. 
+    I'm capable. (e.g. Dynamic Excel file generation + distro from code)
 
-- name: AI Chatbot development
+- name: AI Chatbot Development
   logo: /images/sections/skills/gpt.png
-  summary: "Some experience building microservice apps with gpt-4-turbo, gpt-4o, and custom gpts."
-  url: "https://github.com"
+  summary: Some experience building microservice apps with gpt-4-turbo, gpt-4o, and custom gpts.
 
 - name: Business Intelligence
   logo: /images/sections/skills/tableau.png
-  summary: "Can build BI reports in a multitude of tools including Tableau, PowerBi, Crystal, and more."
+  summary: |
+    Manager level experience with BI projects including planning & discovery, data aquisition 
+    and prepation,  modeling and analysis, as well as building the final products in an iterative 
+    development process with leadership.
+
+- name: Docker / Kubernetes
+  logo: /images/sections/skills/kubernetes.png
+  summary: Deployed multiple web applications and an api on Azure AKS.
 
 - name: Excel
   logo: /images/sections/skills/excel.jpg
   summary: >
-    Connecting to an API or databas. Joining, cleaning, transforming, and elevating access to data like you've never seen in Excel. (e.g. Learned M language to build
+    Connecting to an API or databas. Joining, cleaning, transforming, and elevating access 
+    to data like you've never seen in Excel. (e.g. Learned M language to build
     a excel sheet that downloaded Azure DevOps boards data and update it from excel)
 
 - name: Git
@@ -69,7 +91,9 @@ skills:
 
 - name: Powershell
   logo: /images/sections/skills/powershell.png
-  summary: Can write advanced powershell scripts for automation, administration, reporting. Also well expereinced in traversing ActiveDirectory trees. 
+  summary: |
+    Can write advanced powershell scripts for automation, administration, reporting. 
+    Also well expereinced in traversing ActiveDirectory trees. 
 
 - name: Application Monitoring 
   logo: /images/sections/skills/splunk.png
@@ -87,9 +111,13 @@ skills:
   logo: /images/sections/skills/apache.png
   summary: Built half a dozen Apache web servers for web portals and applications.
 
-- name: ITIL / Change Management
+- name: Servicenow / ITIL / Change Management
   logo: /images/sections/skills/servicenow.png
-  summary: Experienced with ITIL and Change Management processes including ServiceNow catalog request provisioning, incident, change, CMDB, and reporting
-
+  summary: |
+    Experienced with ITIL and Change Management processes using ServiceNow. Can navigate incident, problem, 
+    change, and release management in ServiceNow includingthe build process requests, workflows, and reporting.
+  
 - name: Computer hardware / software troubleshooting
-  summary: Can troubleshoot and repair most computer hardware and software issues. Registry repair, virus removal, laptop keyboard repair, lcd replacement ++
+  summary: |
+    Can troubleshoot and repair most computer hardware and software issues. Registry repair, virus removal, 
+    laptop keyboard repair, lcd replacement ++

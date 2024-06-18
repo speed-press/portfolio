@@ -1,61 +1,43 @@
-# section information
 section:
   name: Projects
   id: projects
-  enable: true
+  enable: false
   weight: 5
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
-# filter buttons
 buttons:
 - name: All
   filter: "all"
 - name: Professional
   filter: "professional"
-- name: Academic
-  filter: "academic"
-- name: Hobby
-  filter: "hobby"
 
-# your projects
+- name: Personal
+  filter: "personal"
+
 projects:
-- name: Flask Api
-  logo: /images/sections/projects/kubernetes.png
+- name: REST API
+  logo: /images/sections/projects/flask.png
   role: Principal Engineer 
-  timeline: "March 2020 - Present"
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  timeline: "Dec 2021 - Present"
+  #repo:
   summary: | 
-    Built a Flask API from the ground up to learn Python, but ended up using it at my company because we didn't have an
-    API before. The API included advanced logging handlers, token authorization, Response() object handling, and a simple 
-    config endpoint model. The model allows endpoints to be deployed with a simple config file that identifies the route, query, 
-    stored procedure, parameters, custom function, and more.
+    Principal engineer and architect of a project to build a REST API from the ground up. The Flask-restx API was a personal 
+    project that my team adopted and grew to fit the needs of the organization. The API provides access via ODBC and sqlAlchemy with a 
+    simple to use configuration model where endpoints can be deployed with a simple yaml config file that defines arguments, 
+    optional custom functions, stored procedures, and much more.It has become the backbone of a greater project that has spawned 
+    multiple web portals, driven analytics, provided microservices, and even enabled access to an a difficult application by layering a REST
+    API on top of the SOAP API for that application. The repo provided is a watered down version of my original project that has been approved
+    to be shared. (Minus security/authentication, etc)
 
-  tags: ["professional", "kubernetes", "cloud"]
+  tags: ["personal", "professional", "api", "python", "architecture", "development", "database"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
+- name: Database / Application Cloud Migration
+  logo: /images/sections/projects/azure.png
   role: Developer
-  timeline: "Jun 2018 - Present"
+  timeline: "March 2022 - November 2023"
   repo: https://github.com/tensorflow/tensorflow
   #url: ""
   summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+  tags: ["professional", "azure", "mysql", "azure", "datamart", "cloud"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
-
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
 

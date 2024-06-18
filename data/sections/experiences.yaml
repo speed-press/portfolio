@@ -1,14 +1,11 @@
-# section information
 section:
   name: Experiences
   id: experiences
   enable: true
   weight: 4
   showOnNavbar: true
-  # Can optionally hide the title in sections
   # hideTitle: true 
 
-# Your experiences
 experiences:
 - company:
     name: Equitable
@@ -21,13 +18,14 @@ experiences:
     start: Sep 2023
     responsibilities:
     - Managed a team of software engineers, providing technical leadership and guidance on best practices.
-    - Actively contributed to AI projects including AI tooling and AI client experience.
-    - Engineered and implemented Azure-based solutions, enhancing scalability and performance across applications.
+    - Actively contributed to AI projects including AI tooling and AI client experience with a focus on call center operations.
+    - Built multiple datamarts from data warehouses for advisor, wholesalers, clients, and call center operations. 
+    - Designed BI Dashboards with Tableau and PowerBI that provided insights into operational metrics, advisor transactions, application adoption and health, web analytics  ++
+    - Engineered and implemented Azure-based solutions for apps, platform, and infrastructure to enhance scalability and performance.
     - Trained broader team on servicenow, change management, and SDLC best practices.
-    - Led project to convert existing applications into AKS solutions.
     - Championed internal transformation projects for operational reporting, automation, cloud adoption, microservices, and self-service portals.
     - Directed a high-impact project for the "Data at Your Fingertips" initiative aimed at reducing call center traffic (deployed 03/07/24).
-    - Led new technology assessments and Proof of Concepts (POCs) for cloud, AI, and automation.
+    - Technical lead for new technology assessments and Proof of Concepts (POCs) for cloud, AI, and automation.
   - designation: Lead Manager, Digital Solutions
     start: Jul 2021
     end: Aug 2023
@@ -51,8 +49,6 @@ experiences:
     url: "https://tiaa.org"
     location: Charlotte, NC
     logo: /images/sections/experiences/tiaa.png
-    # Can optionally show a different logo for dark theme
-    # darklogo: /images/sections/experiences/company2.jpg
     overview: TIAA (Teachers Insurance and Annuity Association of America) offers retirement, investment, and insurance services, primarily for educators and non-profit workers. Managing over $1 trillion in assets, TIAA is dedicated to financial security and ethical business practices.
   positions:
   - designation: Sr. Systems Analyst
@@ -69,15 +65,14 @@ experiences:
     end: Jan 2018.
     responsibilities:
     - Collaborated with teams across the organization for SharePoint application development and support, functioning as both Business Analyst (BA) and Systems Analyst (SA).
-    - Managed project and application cyberark security reviews 
+    - Managed security, infrastructure and architecture reviews for SharePoint applications and projects.
     - Eliminated redundant and low-value processes by creating automation, significantly reducing or completely eliminating the need for human interaction.
     - Managed Splunk configurations including log ingestion process and spunk queries/dashboards.
     - Completed two green belt projects that centralized and streamlined the work intake process for a business unit (400+ employees) reducing total processing time by over 300 hours a month.
 
 - company: 
     name: Geek Squad Senior / Pinellas Computers / Owner @ Sigma Computers (2007 - 2012).
-    # Can optionally show a different logo for dark theme
-    # darklogo: /images/sections/experiences/company3.jpg
+    location: Charlotte, NC & St. Petersburg, FL
     overview: Bench tech | Home & Business technical services | self-smployed
   positions:
   - designation: Various
